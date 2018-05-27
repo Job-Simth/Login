@@ -98,7 +98,7 @@ public class 登录框体 extends JFrame {
         });
 
         //注册事件
-        addMouseListener(new ChangeCard());
+        imageCard.addMouseListener(new ChangeCard());
 
         setBounds(0, 0, 450, 280);
         setLocationRelativeTo(null);
